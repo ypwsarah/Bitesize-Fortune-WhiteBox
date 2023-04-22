@@ -85,7 +85,7 @@ function update(){
     y += vyd;
     console.log(x);
 
-    if(x<canvas.width/3 && y<canvas.height/3){
+    if(x<canvas.width/2 && y<canvas.height/2){
         b1();
     }
     else if(x>canvas.width-canvas.width/3 && y>canvas.height-canvas.height/3){
